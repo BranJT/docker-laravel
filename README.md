@@ -19,3 +19,7 @@ Three additional containers are included that handle Composer, NPM, and Artisan 
 - `docker-compose run --rm artisan migrate` 
 
 Composer, npm and artisan are the names of the containers
+
+## SRC folder
+Create a src folder in the root of your project and inside the src folder place all your laravel project.
+For the laravel .env file, you need to change DB_HOST from localhost or 127.0.0.1 to pgsql which is the name of the psql docker container, then proceed to change normally all the rest of the env variables.
