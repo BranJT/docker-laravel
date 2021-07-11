@@ -1,6 +1,6 @@
 # docker-compose-laravel
 Nginx, postgres, php, composer, npm and artisan stack.
-Repo inspired by https://github.com/aschmelyun/docker-compose-laravel
+Repo based on https://github.com/aschmelyun/docker-compose-laravel
 ## Usage
 
 To get started, make sure you have Docker installed
