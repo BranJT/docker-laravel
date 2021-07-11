@@ -1,6 +1,6 @@
 # docker-compose-laravel
 Nginx, postgres, php, composer, npm and artisan stack.
-
+Repo inspired by https://github.com/aschmelyun/docker-compose-laravel
 ## Usage
 
 To get started, make sure you have Docker installed
@@ -23,3 +23,6 @@ Composer, npm and artisan are the names of the containers
 ## SRC folder
 Create a src folder in the root of your project and inside the src folder place all your laravel project.
 For the laravel .env file, you need to change DB_HOST from localhost or 127.0.0.1 to pgsql which is the name of the psql docker container, then proceed to change normally all the rest of the env variables.
+
+## DB postgres init script
+More information here https://gist.github.com/onjin/2dd3cc52ef79069de1faa2dfd456c945
